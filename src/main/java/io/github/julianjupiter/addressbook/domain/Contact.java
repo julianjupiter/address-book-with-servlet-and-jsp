@@ -2,18 +2,18 @@ package io.github.julianjupiter.addressbook.domain;
 
 public class Contact {
 
-    private int id;
+    private long id;
     private String firstName;
     private String lastName;
     private String mobileNumber;
     private String emailAddress;
     private String address;
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
@@ -21,7 +21,7 @@ public class Contact {
         return firstName;
     }
 
-    public void setFirst_name(String firstName) {
+    public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
@@ -33,7 +33,7 @@ public class Contact {
         this.lastName = lastName;
     }
 
-    public String getMobileNumber() {
+	public String getMobileNumber() {
         return mobileNumber;
     }
 

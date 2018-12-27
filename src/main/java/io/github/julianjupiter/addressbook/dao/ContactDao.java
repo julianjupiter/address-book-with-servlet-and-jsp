@@ -1,12 +1,12 @@
-package io.github.julianjupiter.addressbook.service;
+package io.github.julianjupiter.addressbook.dao;
 
 import java.util.List;
 import java.util.Optional;
 
 import io.github.julianjupiter.addressbook.domain.Contact;
 
-public interface ContactService {
-
+public interface ContactDao {
+	
     List<Contact> findAll();
 
     Optional<Contact> findById(long id);
@@ -16,5 +16,5 @@ public interface ContactService {
     void update(Contact contact);
 
     void delete(long id);
-
+    
 }

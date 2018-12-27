@@ -1,3 +1,6 @@
-.button {
-    height: 5rem;
+body {
+	margin-bottom: 20px;
+}
+body > .container {
+  padding: 60px 15px 0;
 }
