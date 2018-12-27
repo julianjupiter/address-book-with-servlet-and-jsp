@@ -6,11 +6,11 @@ Address Book application written in Servlet, JSP and JDBC (MySQL).
 ![alt text](screenshots/01.PNG "Home")
 ## List of Contacts
 ![alt text](screenshots/02.PNG "List of Contacts")
-## Create a Book
+## Create a Contact
 ![alt text](screenshots/03.PNG "Create a Contact")
-## View a Book
+## View a Contact
 ![alt text](screenshots/04.PNG "View a Contact")
-## Edit a Book
+## Edit a Contact
 ![alt text](screenshots/05.PNG "Edit a Contact")
-## Delete a Book
+## Delete a Contact
 ![alt text](screenshots/06.PNG "Delete a Contact")
